@@ -75,7 +75,7 @@ npx @vscode/vsce package --allow-missing-repository --no-dependencies
 命令行：
 
 ```bash
-"C:\Users\danjing\AppData\Local\Programs\CodeBuddy CN\bin\buddycn.cmd" --install-extension onedark-codebuddy-theme-0.1.0.vsix
+"C:\Users\danjing\AppData\Local\Programs\CodeBuddy CN\bin\buddycn.cmd" --install-extension onedark-codebuddy-theme-0.1.1.vsix
 ```
 
 或在 CodeBuddy 扩展视图 `···` 菜单 → **从 VSIX 安装…**。
