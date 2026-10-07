@@ -1,0 +1,46 @@
+{
+  "name": "onedark-codebuddy-theme",
+  "displayName": "One Dark Pro for CodeBuddy",
+  "description": "One Dark Pro themes for CodeBuddy: three faithful dark flavors (One Dark Pro, Darker, Night Flat) with the CodeBuddy 1.106 workbench fully covered — the 81 color keys the stock One Dark Pro leaves to Dark Modern fallbacks are patched to One Dark's own palette",
+  "version": "0.1.0",
+  "publisher": "songwenhao",
+  "license": "MIT",
+  "author": "onedark-codebuddy-theme contributors",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "codebuddy",
+    "theme",
+    "color-theme",
+    "one-dark-pro",
+    "onedark",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "onedark-codebuddy-pro",
+        "label": "One Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onedark-pro.color-theme.json"
+      },
+      {
+        "id": "onedark-codebuddy-darker",
+        "label": "One Dark Pro Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onedark-darker.color-theme.json"
+      },
+      {
+        "id": "onedark-codebuddy-night-flat",
+        "label": "One Dark Pro Night Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onedark-night-flat.color-theme.json"
+      }
+    ]
+  }
+}

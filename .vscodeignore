@@ -1,0 +1,7 @@
+.vscode/**
+scripts/**
+vendor/**
+**/*.map
+.gitignore
+node_modules/**
+tmp/**
